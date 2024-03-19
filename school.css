@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5; /* Change background color to a lighter shade */
+    font-family: Arial, sans-serif; /* Change font to a more common one */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto; /* Center container horizontally and add some spacing from top */
+    background-color: #fff; /* White background for container */
+    border-radius: 8px; /* Rounded corners for container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Increase padding for header */
+    border-bottom: 1px solid #eee; /* Add separator between header and table */
+}
+
+.tableData {
+    font-size: 24px; /* Increase font size for table heading */
+    color: #333; /* Darken text color */
+}
+
+.add {
+    background-color: #4CAF50; /* Change button color to green */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add smooth transition on hover */
+}
+
+.add:hover {
+    background-color: #45a049; /* Darken button color on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for table header */
+    color: #333; /* Darken text color */
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff; /* White background for table cells */
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #337ab7; /* Blue background for primary action buttons */
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #d9534f; /* Red background for delete action buttons */
+    color: #fff;
+}
+.hideForm {
+    display: none; /* or visibility: hidden; */
+}
+.hideForm {
+    display: none;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.center form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #888;
+}
+
+.center form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.center form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.center form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.center form button[type="submit"]:hover {
+    background-color: #45a049;
+}
